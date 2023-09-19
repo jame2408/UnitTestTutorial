@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaiwanIdValidator.Tests", "Level1_TaiwanIdValidator\TaiwanIdValidator.Tests\TaiwanIdValidator.Tests.csproj", "{B60EFD69-43C6-4260-9D1F-A8F7865C9054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level1_TaiwanIdValidator", "Level1_TaiwanIdValidator", "{15F7FE8B-39B0-4F47-8CF6-21F867989A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaiwanIdValidator", "Level1_TaiwanIdValidator\TaiwanIdValidator\TaiwanIdValidator.csproj", "{CC6D0400-00B1-41A9-B64F-9FDC801A78A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level2_LuckyDraw", "Level2_LuckyDraw", "{F0DD4CA2-B7EA-472F-98E9-52C193EC3045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyDraw", "Level2_LuckyDraw\LuckyDraw\LuckyDraw.csproj", "{58324AE1-24DB-4423-BB01-5C0ECDB1D009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyDraw.Tests", "Level2_LuckyDraw\LuckyDraw.Tests\LuckyDraw.Tests.csproj", "{8444808A-85C2-494D-9B34-5C1330502B8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level3_GlobalTimeUtils", "Level3_GlobalTimeUtils", "{E1842A4B-E39A-49B7-B56A-BD91E635E2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeUtils.Tests", "Level3_GlobalTimeUtils\GlobalTimeUtils.Tests\GlobalTimeUtils.Tests.csproj", "{14F71274-9F2C-4793-A9A2-87E5BB71A23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeUtils", "Level3_GlobalTimeUtils\GlobalTimeUtils\GlobalTimeUtils.csproj", "{8E964200-2C12-402B-8A57-872416A33994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level4_InvestmentOptimizer", "Level4_InvestmentOptimizer", "{E7437D4F-8E63-43F7-BD3E-33131B248B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockRoiCalculator", "Level4_InvestmentOptimizer\StockRoiCalculator\StockRoiCalculator.csproj", "{47528CEB-DC3C-4B3A-BA70-47B85EB7EAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockRoiCalculator.Tests", "Level4_InvestmentOptimizer\StockRoiCalculator.Tests\StockRoiCalculator.Tests.csproj", "{CFF1F411-E644-4358-8903-B3646D642D91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60EFD69-43C6-4260-9D1F-A8F7865C9054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60EFD69-43C6-4260-9D1F-A8F7865C9054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60EFD69-43C6-4260-9D1F-A8F7865C9054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60EFD69-43C6-4260-9D1F-A8F7865C9054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6D0400-00B1-41A9-B64F-9FDC801A78A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6D0400-00B1-41A9-B64F-9FDC801A78A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6D0400-00B1-41A9-B64F-9FDC801A78A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6D0400-00B1-41A9-B64F-9FDC801A78A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58324AE1-24DB-4423-BB01-5C0ECDB1D009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58324AE1-24DB-4423-BB01-5C0ECDB1D009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58324AE1-24DB-4423-BB01-5C0ECDB1D009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58324AE1-24DB-4423-BB01-5C0ECDB1D009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8444808A-85C2-494D-9B34-5C1330502B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8444808A-85C2-494D-9B34-5C1330502B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8444808A-85C2-494D-9B34-5C1330502B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8444808A-85C2-494D-9B34-5C1330502B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F71274-9F2C-4793-A9A2-87E5BB71A23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F71274-9F2C-4793-A9A2-87E5BB71A23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F71274-9F2C-4793-A9A2-87E5BB71A23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F71274-9F2C-4793-A9A2-87E5BB71A23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E964200-2C12-402B-8A57-872416A33994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E964200-2C12-402B-8A57-872416A33994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E964200-2C12-402B-8A57-872416A33994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E964200-2C12-402B-8A57-872416A33994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47528CEB-DC3C-4B3A-BA70-47B85EB7EAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47528CEB-DC3C-4B3A-BA70-47B85EB7EAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47528CEB-DC3C-4B3A-BA70-47B85EB7EAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47528CEB-DC3C-4B3A-BA70-47B85EB7EAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF1F411-E644-4358-8903-B3646D642D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF1F411-E644-4358-8903-B3646D642D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF1F411-E644-4358-8903-B3646D642D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF1F411-E644-4358-8903-B3646D642D91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B60EFD69-43C6-4260-9D1F-A8F7865C9054} = {15F7FE8B-39B0-4F47-8CF6-21F867989A65}
+		{CC6D0400-00B1-41A9-B64F-9FDC801A78A7} = {15F7FE8B-39B0-4F47-8CF6-21F867989A65}
+		{58324AE1-24DB-4423-BB01-5C0ECDB1D009} = {F0DD4CA2-B7EA-472F-98E9-52C193EC3045}
+		{8444808A-85C2-494D-9B34-5C1330502B8C} = {F0DD4CA2-B7EA-472F-98E9-52C193EC3045}
+		{14F71274-9F2C-4793-A9A2-87E5BB71A23F} = {E1842A4B-E39A-49B7-B56A-BD91E635E2D7}
+		{8E964200-2C12-402B-8A57-872416A33994} = {E1842A4B-E39A-49B7-B56A-BD91E635E2D7}
+		{47528CEB-DC3C-4B3A-BA70-47B85EB7EAB2} = {E7437D4F-8E63-43F7-BD3E-33131B248B4B}
+		{CFF1F411-E644-4358-8903-B3646D642D91} = {E7437D4F-8E63-43F7-BD3E-33131B248B4B}
+	EndGlobalSection
+EndGlobal
